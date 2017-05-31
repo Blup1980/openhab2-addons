@@ -21,7 +21,7 @@ public class MCP23016IoExpanderBindingConstants {
     private static final String BINDING_ID = "mcp23016ioexpander";
 
     // List of all Thing Type UIDs
-    public static final ThingTypeUID THING_TYPE_SAMPLE = new ThingTypeUID(BINDING_ID, "sample");
+    public static final ThingTypeUID THING_TYPE_VALVESWITCHBOARD = new ThingTypeUID(BINDING_ID, "ValveSwitchBoard");
 
     // List of all Channel ids
     public static final String CHANNEL_1 = "channel1";
