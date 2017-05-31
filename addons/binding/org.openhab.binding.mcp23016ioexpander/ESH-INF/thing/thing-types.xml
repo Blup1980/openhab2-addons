@@ -6,19 +6,19 @@
 
 	<!-- Sample Thing Type -->
 	<thing-type id="ValveSwitchBoard">
-		<label>Valve Switch Board</label>
+		<label>Valve Switch oard</label>
 		<description>A 10 channels valve switch IO board</description>
 
 		<channels>
-			<channel id="channel1" typeId="sample-channel"/>
+			<channel id="channel1" typeId="valve-channel"/>
 		</channels>
 	</thing-type>
 
-	<!-- Sample Channel Type -->
-	<channel-type id="sample-channel">
-		<item-type>mcp23016ioexpanderItem</item-type>
-		<label>MCP23016IoExpander Binding Channel</label>
-		<description>Sample channel for MCP23016IoExpander Binding</description>
+	<!--valve-channel Type -->
+	<channel-type id="valve-channel">
+		<item-type>switch</item-type>
+		<label>Valve</label>
+		<description>One Valve channel of the IO Expander board</description>
 	</channel-type>
 
 </thing:thing-descriptions>
