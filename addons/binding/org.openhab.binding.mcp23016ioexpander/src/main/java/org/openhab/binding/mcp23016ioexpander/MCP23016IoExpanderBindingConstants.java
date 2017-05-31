@@ -25,5 +25,14 @@ public class MCP23016IoExpanderBindingConstants {
 
     // List of all Channel ids
     public static final String CHANNEL_1 = "channel1";
+    public static final String CHANNEL_2 = "channel2";
+    public static final String CHANNEL_3 = "channel3";
+    public static final String CHANNEL_4 = "channel4";
+    public static final String CHANNEL_5 = "channel5";
+    public static final String CHANNEL_6 = "channel6";
+    public static final String CHANNEL_7 = "channel7";
+    public static final String CHANNEL_8 = "channel8";
+    public static final String CHANNEL_9 = "channel9";
+    public static final String CHANNEL_10 = "channel10";
 
 }
